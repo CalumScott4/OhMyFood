@@ -1,0 +1,15 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Project 2 for OpenClassrooms called \"OhMyFood\"",
+  "main": "index.js",
+  "scripts": {
+    "sass":  "sass --watch ./sass/main.scss:./public/css/prefixed/style.css",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
