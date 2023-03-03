@@ -1,8 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 60px;
 }
 
 html {
@@ -17,3 +18,11 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+
+header {
+    color: $primary-color;
+    }
