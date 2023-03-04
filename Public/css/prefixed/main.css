@@ -87,14 +87,15 @@ header .omf-logo {
 .presentation h1 {
   font-size: 27px;
   font-weight: 900;
+  text-align: center;
   padding: 20px 0px 15px 0px;
 }
 .presentation h2 {
   font-size: 19px;
   font-weight: thin;
   color: #353535;
-  padding: 15px 20px 15px 20px;
   text-align: center;
+  padding: 15px 20px 15px 20px;
 }
 .presentation button {
   height: 50px;

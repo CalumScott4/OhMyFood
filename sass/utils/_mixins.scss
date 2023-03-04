@@ -1,12 +1,14 @@
 @mixin text-title {
     font-size: 27px;
-    font-weight: 900;    
+    font-weight: 900;  
+    text-align: center;  
 }
 
 @mixin text-body {
     font-size: 19px;
     font-weight: thin;
     color: $location-text-color;
+    text-align: center;
 }
 
 @mixin button-text{
