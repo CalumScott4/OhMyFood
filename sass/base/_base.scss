@@ -18,22 +18,19 @@ html {
     box-sizing: inherit;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+
 
 .location {
     display: flex;
     justify-content: center;
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
     color: $location-text-color;
     background-color: $location-bg-color;
+    box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
         i {
             position: relative;
             left: -18px;
         }
-
 }
 
 .presentation{
