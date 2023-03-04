@@ -4,8 +4,8 @@
   "description": "Project 2 for OpenClassrooms called \"OhMyFood\"",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss: ./public/css/prefixed/style.css",
-    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+    "sass": "sass --watch ./sass/main.scss: ./public/css/prefixed/main.css",
+    "prefix": "postcss ./public/css/main.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "author": "",
   "license": "ISC",
