@@ -18,22 +18,29 @@ html {
     box-sizing: inherit;
 }
 
-$primary-color: #9356DC;
-$secondary-color: #FF79DA;
-$tertiary-color: #99E2D0;
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 
 .location {
     display: flex;
     justify-content: center;
     padding: 10px 0px 10px 0px;
-    color: #353535;
-    background-color: #EAEAEA;
+    color: $location-text-color;
+    background-color: $location-bg-color;
         i {
-            // padding-right: 20px;
+            position: relative;
+            left: -18px;
         }
 
 }
 
+.presentation{
+    display: flex;
+    justify-content: center;
+    // border: 2px solid red;
+}
 
 // MOBILE
 @media screen and (max-width: 414px) {

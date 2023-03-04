@@ -1,3 +1,6 @@
+@import './utils/variables';
+@import './utils/mixins';
+
 @import './base/base';
 @import './base/typography';
 
@@ -11,7 +14,6 @@
 @import './pages/index';
 @import './pages/menu';
 
-@import './utils/mixins';
-@import './utils/variables';
+
 
 
