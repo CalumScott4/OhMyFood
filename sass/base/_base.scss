@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 60px;
 }
 
 html {
@@ -22,4 +21,26 @@ html {
 $primary-color: #9356DC;
 $secondary-color: #FF79DA;
 $tertiary-color: #99E2D0;
+
+.location {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    color: #353535;
+    background-color: #EAEAEA;
+        i {
+            // padding-right: 20px;
+        }
+
+}
+
+
+// MOBILE
+@media screen and (max-width: 414px) {
+
+
+
+    
+}
+
 
