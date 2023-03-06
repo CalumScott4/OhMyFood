@@ -27,21 +27,17 @@
 
 .steps{
     @include steps-vis;
-
     .number{
         @include number-vis;
         position: relative;
         left: -14px;
     }
-
     i{
         transform: scale(1.3);
         color: $icon-color;
         padding: 0px 12px 0px 12px;
     }
-
     h3{
-        
         padding: 0px 12px 0px 12px;
     }
 }
