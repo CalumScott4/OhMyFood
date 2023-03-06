@@ -18,11 +18,16 @@ html {
     box-sizing: inherit;
 }
 
-
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
 
 .location {
     display: flex;
     justify-content: center;
+    width: 100%;
     padding: 15px 0px 15px 0px;
     color: $location-text-color;
     background-color: $location-bg-color;
@@ -36,6 +41,7 @@ html {
 .presentation{
     display: flex;
     justify-content: center;
+    width: 100%;
     // border: 2px solid red;
 }
 

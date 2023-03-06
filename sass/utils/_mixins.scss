@@ -1,7 +1,7 @@
 @mixin text-title {
     font-size: 27px;
     font-weight: 900;  
-    text-align: center;  
+     
 }
 
 @mixin text-body {
@@ -28,4 +28,31 @@
     a { 
         @include button-text
     }
+}
+
+@mixin steps-vis{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: $presentation-color;
+    border-radius: 20px;
+    width: 350px;
+    height: 75px;
+    box-shadow: 0px 15px 15px -5px rgba(0,0,0,0.1);
+}
+
+@mixin number-vis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        background-color: $primary-color;
+        color: white;
+}
+
+@mixin how-it-works-text{
+    font-size: 17px;
+    font-weight: 700;
 }
