@@ -88,13 +88,32 @@ a:active {
   font-weight: 700;
 }
 
+footer ul {
+  color: white;
+}
+
 footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
+  background-color: #353535;
+  padding-bottom: 20px;
+  border: 2px solid red;
+}
+footer ul {
+  list-style: none;
+  padding: 10px;
+  border: 2px solid blue;
+}
+footer li {
+  padding: 5px;
+}
+footer i {
+  width: 20px;
+  padding-right: 15px;
 }
 
-footer .omf-logo {
+footer img {
   width: 100px;
 }
 
