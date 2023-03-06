@@ -1,0 +1,12 @@
+@mixin gradient-btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    background: rgb(255,121,218);
+    background: linear-gradient(160deg, rgba(255,121,218,1) 12%, rgba(147,86,220,1) 100%);
+    border: none;
+    box-shadow: 0px 15px 15px -13px rgba(0,0,0,0.5);
+    a { 
+        @include button-text
+    }
+}

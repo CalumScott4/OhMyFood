@@ -103,13 +103,15 @@ footer {
   align-items: center;
   width: 100%;
   background-color: #353535;
-  padding-bottom: 20px h1;
-  padding-bottom-padding: 10px;
-  padding-bottom-width: 85%;
-  padding-bottom-max-width: 410px;
+  padding-bottom: 20px;
+}
+footer h1 {
+  padding: 20px 10px 10px 15px;
+  width: 90%;
+  max-width: 410px;
 }
 footer ul {
-  width: 85%;
+  width: 90%;
   max-width: 410px;
   list-style: none;
   padding: 10px;
