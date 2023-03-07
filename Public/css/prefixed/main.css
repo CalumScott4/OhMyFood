@@ -207,7 +207,7 @@ header i {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-around;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px 50px 20px;
   height: 450px;
   width: 100%;
   background-color: white;
@@ -228,7 +228,7 @@ header i {
   border-radius: 20px;
   height: 75px;
   box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: 98%;
   max-width: 400px;
 }
 .steps .number {
@@ -249,7 +249,7 @@ header i {
   padding: 0px 12px 0px 12px;
 }
 .steps h3 {
-  padding: 0px 50px 0px 12px;
+  padding: 0px 0px 0px 12px;
 }
 
 .menus {
@@ -258,31 +258,32 @@ header i {
   margin-bottom: 50px;
 }
 .menus h1 {
+  margin-top: 50px;
   font-size: 27px;
   font-weight: 900;
 }
 .menus .tfp-img {
   max-width: 400px;
-  position: relative;
   transform: scale(1.1);
+  position: relative;
   top: -40px;
 }
 .menus .tep-img {
   max-width: 450px;
-  position: relative;
   transform: scale(0.9);
-  top: -40px;
+  position: relative;
+  top: -35px;
 }
 .menus .bas-img {
   max-width: 400px;
-  position: relative;
   transform: scale(1);
+  position: relative;
   top: -40px;
 }
 .menus .leg-img {
   max-width: 400px;
-  position: relative;
   transform: scale(1);
+  position: relative;
   top: -40px;
 }
 
@@ -302,7 +303,6 @@ header i {
   overflow: hidden;
 }
 .menu-card h2 {
-  width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -310,9 +310,10 @@ header i {
   font-size: 20px;
   font-weight: 900;
   color: black;
+  width: 100%;
 }
 .menu-card h2 i {
-  padding-right: 10px;
+  padding-right: 20px;
   transform: scale(1.5);
   position: relative;
   top: 10px;
