@@ -137,7 +137,7 @@ footer {
   background-color: #353535;
   padding-bottom: 20px;
 }
-footer h1 {
+footer a {
   padding: 20px 10px 10px 15px;
   width: 90%;
   max-width: 410px;
@@ -154,10 +154,6 @@ footer li {
 footer i {
   width: 20px;
   padding-right: 15px;
-}
-
-footer img {
-  width: 100px;
 }
 
 header {
