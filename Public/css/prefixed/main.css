@@ -295,6 +295,21 @@ header i {
   align-items: center;
   max-height: 200px;
   overflow: hidden;
+  position: relative;
+}
+.menu-img .new {
+  font-weight: 600;
+  font-size: 15px;
+  color: #008665;
+  background-color: #99E2D0;
+  padding: 4px 0px 4px 0px;
+  border-radius: 3px;
+  text-align: center;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 1;
+  width: 75px;
 }
 
 .menu-card {
