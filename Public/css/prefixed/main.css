@@ -227,6 +227,12 @@ header i {
   width: 98%;
   max-width: 400px;
 }
+.steps:hover {
+  background-color: #F5EDFF;
+}
+.steps:hover i {
+  color: #9356DC;
+}
 .steps .number {
   display: flex;
   justify-content: center;
