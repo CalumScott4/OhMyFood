@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
+  background-color: #F6F6F6;
 }
 
 .location {
@@ -60,6 +61,38 @@ a:active {
   text-decoration: none;
 }
 
+h2:link {
+  text-decoration: none;
+}
+
+h2:visited {
+  text-decoration: none;
+}
+
+h2:hover {
+  text-decoration: none;
+}
+
+h2:active {
+  text-decoration: none;
+}
+
+h3:link {
+  text-decoration: none;
+}
+
+h3:visited {
+  text-decoration: none;
+}
+
+h3:hover {
+  text-decoration: none;
+}
+
+h3:active {
+  text-decoration: none;
+}
+
 .location h2 {
   font-size: 16px;
   font-weight: 700;
@@ -75,7 +108,6 @@ a:active {
   font-size: 19px;
   font-weight: thin;
   color: #353535;
-  text-align: center;
   padding: 15px 20px 15px 20px;
 }
 
@@ -148,8 +180,12 @@ header i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   padding: 20px 0px 60px 0px;
   background-color: #F6F6F6;
+}
+.presentation h2 {
+  max-width: 400px;
 }
 .presentation button {
   height: 50px;
@@ -169,13 +205,19 @@ header i {
 .how-it-works {
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
   justify-content: space-around;
   padding: 30px 20px 30px 20px;
   height: 450px;
+  width: 100%;
+  background-color: white;
 }
 .how-it-works h1 {
-  position: relative;
-  left: -10px;
+  display: flex;
+  justify-self: flex-start;
+  align-self: center;
+  width: 100%;
+  max-width: 400px;
 }
 
 .steps {
@@ -186,6 +228,8 @@ header i {
   border-radius: 20px;
   height: 75px;
   box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
 }
 .steps .number {
   display: flex;
@@ -206,6 +250,78 @@ header i {
 }
 .steps h3 {
   padding: 0px 50px 0px 12px;
+}
+
+.menus {
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 50px;
+}
+.menus h1 {
+  font-size: 27px;
+  font-weight: 900;
+}
+.menus .tfp-img {
+  max-width: 400px;
+  position: relative;
+  transform: scale(1.1);
+  top: -40px;
+}
+.menus .tep-img {
+  max-width: 450px;
+  position: relative;
+  transform: scale(0.9);
+  top: -40px;
+}
+.menus .bas-img {
+  max-width: 400px;
+  position: relative;
+  transform: scale(1);
+  top: -40px;
+}
+.menus .leg-img {
+  max-width: 400px;
+  position: relative;
+  transform: scale(1);
+  top: -40px;
+}
+
+.menu-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.menu-card {
+  margin: 20px 0px 20px 0px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  overflow: hidden;
+}
+.menu-card h2 {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 15px 10px 0px 10px;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+}
+.menu-card h2 i {
+  padding-right: 10px;
+  transform: scale(1.5);
+  position: relative;
+  top: 10px;
+}
+.menu-card h3 {
+  padding: 0px 10px 15px 10px;
+  font-size: 19px;
+  font-weight: thin;
+  color: #353535;
 }
 
 button {
