@@ -25,26 +25,6 @@ body {
   background-color: #F6F6F6;
 }
 
-.location {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 15px 0px 15px 0px;
-  color: #353535;
-  background-color: #EAEAEA;
-  box-shadow: inset 0 7px 9px -7px rgba(0, 0, 0, 0.4);
-}
-.location i {
-  position: relative;
-  left: -18px;
-}
-
-.presentation {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -179,8 +159,24 @@ header i {
   color: #353535;
 }
 
+.location {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  color: #353535;
+  background-color: #EAEAEA;
+  box-shadow: inset 0 7px 9px -7px rgba(0, 0, 0, 0.4);
+}
+.location i {
+  position: relative;
+  left: -18px;
+}
+
 .presentation {
   display: flex;
+  justify-content: center;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -195,7 +191,6 @@ header i {
   width: 80%;
   max-width: 200px;
   border-radius: 25px;
-  background: rgb(255, 121, 218);
   background: linear-gradient(160deg, rgb(255, 121, 218) 12%, rgb(147, 86, 220) 100%);
   border: none;
   box-shadow: 0px 15px 15px -13px rgba(0, 0, 0, 0.5);
@@ -260,6 +255,14 @@ header i {
 }
 .steps h3 {
   padding: 0px 0px 0px 12px;
+}
+
+.menu-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  background-color: #F6F6F6;
 }
 
 .menus {
@@ -342,6 +345,7 @@ header i {
   transform: scale(1.5);
   position: relative;
   top: 10px;
+  color: #7E7E7E;
 }
 .menu-card h3 {
   padding: 0px 10px 15px 10px;
@@ -359,7 +363,6 @@ button {
   width: 80%;
   max-width: 200px;
   border-radius: 25px;
-  background: rgb(255, 121, 218);
   background: linear-gradient(160deg, rgb(255, 121, 218) 12%, rgb(147, 86, 220) 100%);
   border: none;
   box-shadow: 0px 15px 15px -13px rgba(0, 0, 0, 0.5);
@@ -414,6 +417,7 @@ button a {
 .menu-content i {
   padding: 5px 35px 0px 5px;
   transform: scale(1);
+  color: #7E7E7E;
 }
 .menu-content h2 {
   font-size: 19px;

@@ -1,20 +1,53 @@
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:link {
+    text-decoration: none;
+}
 
-h2:link { text-decoration: none; }
-h2:visited { text-decoration: none; }
-h2:hover { text-decoration: none; }
-h2:active { text-decoration: none; }
+a:visited {
+    text-decoration: none;
+}
 
-h3:link { text-decoration: none; }
-h3:visited { text-decoration: none; }
-h3:hover { text-decoration: none; }
-h3:active { text-decoration: none; }
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h2:link {
+    text-decoration: none;
+}
+
+h2:visited {
+    text-decoration: none;
+}
+
+h2:hover {
+    text-decoration: none;
+}
+
+h2:active {
+    text-decoration: none;
+}
+
+h3:link {
+    text-decoration: none;
+}
+
+h3:visited {
+    text-decoration: none;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+h3:active {
+    text-decoration: none;
+}
 
 
-.location{
+.location {
     h2 {
         font-size: 16px;
         font-weight: 700;
@@ -27,36 +60,38 @@ h3:active { text-decoration: none; }
         @include text-title;
         padding: 20px 0px 15px 0px
     }
+
     h2 {
         @include text-body;
         padding: 15px 20px 15px 20px;
     }
 }
 
-.how-it-works{
-    h1{
+.how-it-works {
+    h1 {
         @include text-title
-    }    
+    }
 
     h3 {
         @include how-it-works-text
     }
 }
 
-.menu-content{ 
-    h1{
-    font-family: 'Shrikhand',sans-serif;
+.menu-content {
+    h1 {
+        font-family: 'Shrikhand', sans-serif;
     }
-    
+
 }
 
-footer{
-    h1{
+footer {
+    h1 {
         font-size: 20px;
-        font-family: 'Shrikhand',sans-serif;
+        font-family: 'Shrikhand', sans-serif;
         color: white;
     }
-    ul{
+
+    ul {
         color: white;
     }
 }

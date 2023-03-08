@@ -18,40 +18,12 @@ html {
     box-sizing: inherit;
 }
 
-body{
+body {
     display: flex;
     flex-flow: column;
     align-items: center;
     background-color: $presentation-color;
 }
 
-.location {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 15px 0px 15px 0px;
-    color: $location-text-color;
-    background-color: $location-bg-color;
-    box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
-        i {
-            position: relative;
-            left: -18px;
-        }
-}
-
-.presentation{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    // border: 2px solid red;
-}
-
 // MOBILE
-@media screen and (max-width: 425px) {
-
-
-
-    
-}
-
-
+@media screen and (max-width: 425px) {}
