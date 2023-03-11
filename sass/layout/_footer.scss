@@ -1,4 +1,5 @@
 footer {
+    transform: scale(1.2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,17 +7,18 @@ footer {
     background-color: $location-text-color;
     padding-bottom: 20px;
 
-    a {
-        padding: 20px 10px 10px 15px;
-        width: 90%;
-        max-width: 410px;
+    .footer-logo {
+        align-self: flex-start;
+        padding: 10px 0px 0px 15px;
+        filter: invert(1);
+        transform: scale(0.6);
     }
 
     ul {
-        width: 90%;
-        max-width: 410px;
+        width: 80%;
+        max-width: 380px;
         list-style: none;
-        padding: 10px;
+        padding: 0px 5px 5px 5px;
     }
 
     li {
