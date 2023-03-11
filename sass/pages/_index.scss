@@ -116,7 +116,6 @@
         position: relative;
         top: -40px;
     }
-
 }
 
 .menu-img {
@@ -159,5 +158,9 @@
     h3 {
         padding: 0px 10px 15px 10px;
         @include text-body
+    }
+
+    &:hover{
+        transform: scale(1.01);
     }
 }

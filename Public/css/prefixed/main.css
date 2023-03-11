@@ -359,6 +359,9 @@ header i {
   font-weight: thin;
   color: #353535;
 }
+.menu-card:hover {
+  transform: scale(1.01);
+}
 
 body {
   background-color: white;
