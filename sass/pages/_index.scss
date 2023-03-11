@@ -3,7 +3,7 @@
     justify-content: center;
     width: 100%;
     padding: 15px 0px 15px 0px;
-    color: $location-text-color;
+    color: $dark-grey;
     background-color: $location-bg-color;
     box-shadow: inset 0 7px 9px -7px rgba(0, 0, 0, 0.4);
 
@@ -21,7 +21,7 @@
     align-items: center;
     text-align: center;
     padding: 20px 0px 60px 0px;
-    background-color: $presentation-color;
+    background-color: $background-grey;
 
     h2 {
         max-width: 400px;
@@ -76,7 +76,7 @@
     flex-flow: column;
     align-items: center;
     width: 100%;
-    background-color: $presentation-color;
+    background-color: $background-grey;
 }
 
 .menus {

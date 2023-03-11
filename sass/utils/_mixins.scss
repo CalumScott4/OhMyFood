@@ -6,7 +6,7 @@
 @mixin text-body {
     font-size: 19px;
     font-weight: thin;
-    color: $location-text-color;
+    color: $dark-grey;
 }
 
 @mixin button-text{
@@ -19,7 +19,7 @@
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    background-color: $presentation-color;
+    background-color: $background-grey;
     border-radius: 20px;
     height: 75px;
     box-shadow: 0px 15px 15px -5px rgba(0,0,0,0.1);
