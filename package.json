@@ -4,12 +4,14 @@
   "description": "Project 2 for OpenClassrooms called \"OhMyFood\"",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss: ./public/css/prefixed/main.css",
+    "sass": "sass --watch ./sass/main.scss:./public/css/main.css",
     "prefix": "postcss ./public/css/main.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "author": "",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "dependencies": {
-    "global": "^4.4.0"
+    "global": "^4.4.0",
+    "postcss": "^8.4.21"
   }
 }
