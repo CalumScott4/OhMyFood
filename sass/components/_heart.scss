@@ -1,0 +1,34 @@
+.heart {
+    position: relative;
+    transform: scale(1.5);
+    .fa-regular {
+        color: $icon-color;
+        position: absolute;
+        top: 5px;
+        left: -30px;
+        opacity: 1;
+        transition: opacity 100ms ease-in-out;
+
+        &:hover {
+            opacity: 0;
+        }
+
+    }
+
+    .fa-solid {
+        color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(180deg, $secondary-color, $primary-color);
+        position: absolute;
+        top: 5px;
+        left: -30px;
+        opacity: 0;
+        transition: opacity 500ms ease-in-out;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+
+}

@@ -1,13 +1,24 @@
 @mixin gradient-btn {
-    height: 50px;
-    width: 80%;
-    max-width: 200px;
-    border-radius: 25px;
-    background: $button-color;
+    @include gradient-btn-size;
+    background: linear-gradient(180deg, $secondary-color, $primary-color);
     border: none;
     box-shadow: 0px 15px 15px -13px rgba(0, 0, 0, 0.5);
 
     a {
         @include button-text
     }
+
+    &:hover{
+        box-shadow: 0px 15px 18px -11px rgba(0, 0, 0, 0.5);
+        background: linear-gradient(180deg, $secondary-color-light, $primary-color-light);
+    }
+
 }
+
+// .button-overlay{
+//     @include gradient-btn-size;
+//     position: relative;
+//     top: 0px;
+//     z-index: 1;
+//     border: 2px red solid;
+// }

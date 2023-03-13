@@ -127,7 +127,7 @@
     position: relative;
 
     .new {
-        background-color: $new-bg-color;
+        background-color: $tertiary-color;
         padding: 4px 0px 4px 0px;
         border-radius: 3px;
         text-align: center;
@@ -144,11 +144,6 @@
 
     h2 {
         @include menu-card-text;
-
-        i {
-            @include heart-position;
-            color: $icon-color;
-        }
     }
 
     h3 {

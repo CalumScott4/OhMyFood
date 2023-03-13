@@ -1,3 +1,11 @@
+@mixin gradient-btn-size{
+    height: 50px;
+    width: 80%;
+    max-width: 200px;
+    border-radius: 25px;
+}
+
+
 @mixin text-title {
     font-size: 27px;
     font-weight: 700;  
@@ -66,11 +74,4 @@
     font-weight: 700;
     color: black;
     width: 100%;
-}
-
-@mixin heart-position{
-    padding-right: 20px;
-    transform: scale(1.5);
-    position: relative;
-    top: 10px;  
 }

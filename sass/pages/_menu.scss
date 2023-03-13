@@ -44,18 +44,14 @@ button {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     box-shadow: $menu-page-shadow;
+    overflow: hidden;
 
     h1 {
-        padding: 20px 5px 20px 15px;
+        padding: 20px 30px 20px 15px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-    }
-
-    i {
-        padding: 5px 35px 0px 5px;
-        transform: scale(1);
-        color: $icon-color;
+        text-align: left;
     }
 
     h2 {

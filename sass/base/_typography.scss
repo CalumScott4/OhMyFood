@@ -87,12 +87,13 @@ h3 {
 .new{
     font-weight: 600;
     font-size: 15px;
-    color: $new-text-color;
+    color: darken($tertiary-color, 45);
 }
 
 .menu-content {
     h1 {
         font-family: 'Shrikhand', sans-serif;
+        font-size: 30px
     }
 
     h2{
