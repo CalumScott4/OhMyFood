@@ -14,7 +14,7 @@ button {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: $menu-page-shadow;
 
     img {
         height: 225px;
@@ -43,7 +43,7 @@ button {
     max-width: 425px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: $menu-page-shadow;
 
     h1 {
         padding: 20px 5px 20px 15px;
@@ -59,9 +59,6 @@ button {
     }
 
     h2 {
-        @include text-body;
-        font-size: 18px;
-        text-transform: uppercase;
         padding: 20px 0px 0px 20px;
     }
 
@@ -84,7 +81,7 @@ button {
         max-width: 400px;
         margin-top: 20px;
         background-color: white;
-        border-radius: 20px;
+        border-radius: $card-radius;
         box-shadow: 0px 15px 15px -16px rgba(0, 0, 0, 0.1);
         // white-space: nowrap;
         // overflow: hidden;
@@ -93,23 +90,17 @@ button {
 }
 
 .dish {
-    h3 {
-        font-size: 17px;
-        font-weight: 600;
-        padding-bottom: 5px;
-        
-        
-        
+    h3{
+        padding-bottom: 5px; 
     }
 
     .dish-info {
         display: flex;
         justify-content: space-between;
         flex-wrap: row wrap;
-    }
+    } 
 
     h5 {
         padding-right: 20px;
-        font-weight: 900;
     }
 }

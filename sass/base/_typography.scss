@@ -1,50 +1,57 @@
-a:link {
-    text-decoration: none;
+a {
+    &:link {
+        text-decoration: none;
+    }
+
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:active {
+        text-decoration: none;
+    }
 }
 
-a:visited {
-    text-decoration: none;
+h2 {
+    &:link {
+        text-decoration: none;
+    }
+
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:active {
+        text-decoration: none;
+    }
 }
 
-a:hover {
-    text-decoration: none;
+h3 {
+    &:link {
+        text-decoration: none;
+    }
+
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:active {
+        text-decoration: none;
+    }
 }
 
-a:active {
-    text-decoration: none;
-}
-
-h2:link {
-    text-decoration: none;
-}
-
-h2:visited {
-    text-decoration: none;
-}
-
-h2:hover {
-    text-decoration: none;
-}
-
-h2:active {
-    text-decoration: none;
-}
-
-h3:link {
-    text-decoration: none;
-}
-
-h3:visited {
-    text-decoration: none;
-}
-
-h3:hover {
-    text-decoration: none;
-}
-
-h3:active {
-    text-decoration: none;
-}
 
 
 .location {
@@ -77,11 +84,38 @@ h3:active {
     }
 }
 
+.new{
+    font-weight: 600;
+    font-size: 15px;
+    color: $new-text-color;
+}
+
 .menu-content {
     h1 {
         font-family: 'Shrikhand', sans-serif;
     }
 
+    h2{
+        @include text-body;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+}
+
+.dish{
+    h3 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    h4 {
+        font-weight: 300;
+    }
+
+    h5{
+        font-weight: 900;
+    }
 }
 
 footer {

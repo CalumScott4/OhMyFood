@@ -127,9 +127,6 @@
     position: relative;
 
     .new {
-        font-weight: 600;
-        font-size: 15px;
-        color: $new-text-color;
         background-color: $new-bg-color;
         padding: 4px 0px 4px 0px;
         border-radius: 3px;
@@ -140,7 +137,6 @@
         z-index: 1;
         width: 75px;
     }
-
 }
 
 .menu-card {

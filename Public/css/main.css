@@ -465,7 +465,12 @@ button a {
   justify-content: space-between;
   flex-wrap: row wrap;
 }
+.dish h4 {
+  font-weight: 300;
+}
 .dish h5 {
   padding-right: 20px;
   font-weight: 900;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
