@@ -157,6 +157,33 @@ footer ul {
   }
 }
 
+.dish:hover .tick-wrapper {
+  width: 70px;
+  transition: width 0.5s ease-in-out;
+}
+.dish:hover .check-white {
+  visibility: visible;
+  transform: rotate(360deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.tick-wrapper {
+  width: 0px;
+  background-color: #99E2D0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+.tick-wrapper .check-white {
+  font-size: 25px;
+  color: white;
+  transform: rotate(1deg);
+  visibility: hidden;
+}
+
 .heart {
   position: relative;
   transform: scale(1.5);
@@ -577,38 +604,57 @@ button:hover {
 }
 
 .dishes .dish {
-  padding: 10px 0px 10px 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   width: 95%;
   max-width: 400px;
   margin-top: 20px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 15px 15px -16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
-.dish h3 {
+.dish .dish-left {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.dish .dish-left h3 {
   padding-bottom: 5px;
 }
-.dish .dish-info {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: row wrap;
+.dish .dish-left .dish-text {
+  padding: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.dish h5 {
-  padding-right: 20px;
+.dish .dish-right {
+  display: flex;
+  width: 25%;
+  flex-direction: row wrap;
+  justify-content: flex-end;
+}
+.dish .dish-right .price {
+  width: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  padding-bottom: 10px;
 }
 
 .menu-content h2 {
   opacity: 0;
-  animation: fadeIn 2s;
-  animation-delay: 2s;
+  animation: appear 2s ease-in;
   animation-fill-mode: forwards;
+  animation-delay: 2s;
 }
-@keyframes fadeIn {
+@keyframes appear {
   0% {
     opacity: 0;
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
+    transform: translateY(0px);
   }
 }/*# sourceMappingURL=main.css.map */
