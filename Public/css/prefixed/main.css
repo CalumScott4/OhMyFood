@@ -593,6 +593,16 @@ button:hover {
 }
 .menu-content h2 {
   padding: 20px 0px 0px 20px;
+  position: relative;
+}
+.menu-content h2::after {
+  content: "";
+  height: 3px;
+  width: 45px;
+  background-color: #99E2D0;
+  position: absolute;
+  left: 20px;
+  bottom: -5px;
 }
 .menu-content .dishes {
   display: flex;

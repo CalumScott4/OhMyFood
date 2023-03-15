@@ -56,6 +56,17 @@ button {
 
     h2 {
         padding: 20px 0px 0px 20px;
+        position: relative;
+
+        &::after{
+            content: '';
+            height: 3px;
+            width: 45px;
+            background-color: $tertiary-color;
+            position: absolute;
+            left: 20px;
+            bottom: -5px;
+        }
     }
 
     .dishes {
