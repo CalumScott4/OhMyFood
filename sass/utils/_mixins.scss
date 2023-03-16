@@ -85,7 +85,7 @@
 }
 
 @mixin for-desktop-footer{
-    @media screen and (min-width: 986px){
+    @media screen and (min-width: 937px){
         @content;
     }    
 }

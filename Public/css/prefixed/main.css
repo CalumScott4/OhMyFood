@@ -297,7 +297,7 @@ footer .footer-nav {
   max-width: 380px;
   padding: 12px;
 }
-@media screen and (min-width: 986px) {
+@media screen and (min-width: 937px) {
   footer .footer-nav {
     flex-flow: row;
     max-width: 769px;
@@ -315,7 +315,7 @@ footer ul {
   max-width: 380px;
   list-style: none;
 }
-@media screen and (min-width: 986px) {
+@media screen and (min-width: 937px) {
   footer ul {
     display: flex;
     flex-flow: row wrap;
@@ -326,7 +326,7 @@ footer ul {
 footer li {
   padding-top: 5px;
 }
-@media screen and (min-width: 986px) {
+@media screen and (min-width: 937px) {
   footer li {
     width: -moz-fit-content;
     width: fit-content;
@@ -417,7 +417,6 @@ header i {
   align-self: center;
   padding-bottom: 30px;
   width: 100%;
-  max-width: 400px;
 }
 .how-it-works .steps-container {
   display: flex;
@@ -428,7 +427,7 @@ header i {
 }
 @media screen and (min-width: 769px) {
   .how-it-works {
-    max-width: 1440px;
+    max-width: 1024px;
   }
   .how-it-works h1 {
     padding-left: 30px;
@@ -436,7 +435,7 @@ header i {
   }
   .how-it-works .steps-container {
     flex-flow: row nowrap;
-    max-width: 1440px;
+    max-width: 1024px;
   }
   .how-it-works .steps {
     width: 30%;
@@ -491,7 +490,7 @@ header i {
 }
 @media screen and (min-width: 769px) {
   .menu-container h1 {
-    padding-left: 5px;
+    padding-left: 40px;
     width: 99%;
   }
 }
@@ -534,8 +533,8 @@ header i {
   .menus {
     display: flex;
     flex-flow: row wrap;
-    width: 95%;
-    max-width: 1350px;
+    width: 100%;
+    max-width: 1024px;
     justify-content: space-evenly;
     align-content: center;
   }
@@ -641,6 +640,29 @@ button:hover {
   height: 225px;
   transform: scale(1.3);
 }
+@media screen and (min-width: 769px) {
+  .menu-top {
+    max-width: 1024px;
+  }
+  .menu-top img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -20px;
+  }
+  .menu-top .tep-menu-img {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    top: -40px;
+  }
+  .menu-top .leg-menu-img {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    top: -40px;
+  }
+}
 
 .menu-content {
   position: relative;
@@ -681,6 +703,25 @@ button:hover {
 .menu-content button {
   margin: 50px 0px 90px 0px;
 }
+@media screen and (min-width: 769px) {
+  .menu-content {
+    max-width: 1024px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  .menu-content h1 {
+    width: 100%;
+  }
+  .menu-content .dishes {
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .menu-content .dishes .dish {
+    max-width: 30%;
+  }
+}
 
 .dishes .dish {
   display: flex;
@@ -704,7 +745,7 @@ button:hover {
 }
 .dish .dish-left .dish-text {
   padding: 10px;
-  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 .dish .dish-right {
