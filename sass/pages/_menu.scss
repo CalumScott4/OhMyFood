@@ -153,20 +153,22 @@ button {
 
 
 .dish {
-
+    
     .dish-left{
+        white-space: nowrap;
+        overflow: hidden;
         width: fit-content;
         h3 {
             padding-bottom: 5px;
+            
         }
-    
+
+        h4{
+        text-overflow: ellipsis;
+        }    
+
         .dish-text {
-            padding: 10px;
-            overflow: hidden;
-            // white-space: nowrap;
-            text-overflow: ellipsis;
-            // display: flex;
-            // flex-flow: column nowrap;       
+            padding: 10px;            
         }
     }
     

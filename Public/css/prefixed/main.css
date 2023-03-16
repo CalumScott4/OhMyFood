@@ -737,16 +737,19 @@ button:hover {
 }
 
 .dish .dish-left {
+  white-space: nowrap;
+  overflow: hidden;
   width: -moz-fit-content;
   width: fit-content;
 }
 .dish .dish-left h3 {
   padding-bottom: 5px;
 }
+.dish .dish-left h4 {
+  text-overflow: ellipsis;
+}
 .dish .dish-left .dish-text {
   padding: 10px;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .dish .dish-right {
   display: flex;
