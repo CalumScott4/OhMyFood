@@ -30,6 +30,9 @@
     button {
         @include gradient-btn;
     }
+
+    
+
 }
 
 .how-it-works {
@@ -37,17 +40,42 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
-    padding: 30px 20px 50px 20px;
-    height: 450px;
+    padding: 30px 20px 30px 20px;
     width: 100%;
     background-color: white;
-
+   
     h1 {
         display: flex;
         justify-self: flex-start;
         align-self: center;
+        padding-bottom: 30px;
         width: 100%;
         max-width: 400px
+    }
+
+    .steps-container{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    // DESKTOP MEDIA QUERY
+
+    @include for-desktop{
+        max-width: 1440px;
+        h1{
+            padding-left: 30px;
+            align-self: flex-start;
+        }
+        .steps-container{
+            flex-flow: row nowrap;
+            max-width: 1440px;
+        }
+        .steps{
+            width: 30%;
+        }
     }
 }
 
@@ -67,7 +95,7 @@
     }
 
     h3 {
-        padding: 0px 0px 0px 12px;
+        padding: 0px 0px 0px 10px;
     }
 }
 
@@ -77,13 +105,35 @@
     align-items: center;
     width: 100%;
     background-color: $background-grey;
+
+    h1{
+        @include for-desktop{
+            padding-left: 5px;
+            width: 99%;
+        }
+    }
+
+    // DESKTOP MEDIA QUERY
+
+    // @include for-desktop{
+    //     // display: flex;
+    //     // flex-flow: row wrap;
+    //     // justify-content: flex-start;
+    //     border: 2px solid red;
+
+    //     .menus{
+    //         flex-flow: row wrap;
+    //         max-width: 100%;
+    //     }
+       
+    // }
+
 }
 
 .menus {
     width: 90%;
     max-width: 400px;
     margin-bottom: 50px;
-
     h1 {
         margin-top: 50px;
         @include text-title;
@@ -116,6 +166,16 @@
         position: relative;
         top: -40px;
     }
+
+    @include for-desktop{
+        display: flex;
+        flex-flow: row wrap;
+        width: 95%;
+        max-width: 1350px;
+
+        justify-content: space-evenly;
+        align-content: center;
+    }
 }
 
 .menu-img {
@@ -141,6 +201,10 @@
 
 .menu-card {
     @include menu-card-vis;
+
+    @include for-desktop{
+        margin: 20px 30px 20px 30px;
+    }
 
     h2 {
         @include menu-card-text;
