@@ -43,14 +43,17 @@
     }
 
     &:hover .check-white {
-        visibility: visible;
+        transform-origin: center;
         transform: rotate(360deg);
-        transition: transform 0.5s ease-in-out;
+        opacity: 1;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     }
 }
 
 .tick-wrapper {
     width: 0px;
+    transition: width 0.5s ease-in-out;
+
     background-color: $tertiary-color;
     height: 100%;
     display: flex;
@@ -61,8 +64,9 @@
 
     .check-white {
         font-size: 25px;
-        color: white;
-        transform: rotate(1deg);
-        visibility: hidden;
+        color: $color-white;
+        transform: rotate(0deg);
+        opacity: 0;
+        transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     }
 }

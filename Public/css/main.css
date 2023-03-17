@@ -162,13 +162,15 @@ footer ul {
   transition: width 0.5s ease-in-out;
 }
 .dish:hover .check-white {
-  visibility: visible;
+  transform-origin: center;
   transform: rotate(360deg);
-  transition: transform 0.5s ease-in-out;
+  opacity: 1;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .tick-wrapper {
   width: 0px;
+  transition: width 0.5s ease-in-out;
   background-color: #99E2D0;
   height: 100%;
   display: flex;
@@ -180,8 +182,9 @@ footer ul {
 .tick-wrapper .check-white {
   font-size: 25px;
   color: white;
-  transform: rotate(1deg);
-  visibility: hidden;
+  transform: rotate(0deg);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .heart {
