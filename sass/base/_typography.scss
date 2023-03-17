@@ -52,8 +52,6 @@ h3 {
     }
 }
 
-
-
 .location {
     h2 {
         font-size: 16px;
@@ -84,7 +82,7 @@ h3 {
     }
 }
 
-.new{
+.new {
     font-weight: 600;
     font-size: 15px;
     color: darken($tertiary-color, 45);
@@ -96,7 +94,7 @@ h3 {
         font-size: 30px
     }
 
-    h2{
+    h2 {
         @include text-body;
         font-size: 18px;
         text-transform: uppercase;
@@ -104,7 +102,7 @@ h3 {
 
 }
 
-.dish{
+.dish {
     h3 {
         font-size: 17px;
         font-weight: 600;
@@ -114,7 +112,7 @@ h3 {
         font-weight: 300;
     }
 
-    h5{
+    h5 {
         font-weight: 900;
     }
 }

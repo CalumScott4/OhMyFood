@@ -6,6 +6,7 @@ footer {
     height: max-content;
     background-color: $dark-grey;
     padding-bottom: 20px;
+
     a {
         color: white;
     }
@@ -15,14 +16,13 @@ footer {
         max-width: 380px;
         padding: 12px;
 
-        
-    @include for-desktop-footer{
-        flex-flow: row ;
-        max-width: 769px ;
-        flex-flow: row wrap;
-        align-items: none;
-    }
 
+        @include for-desktop-footer {
+            flex-flow: row;
+            max-width: 769px;
+            flex-flow: row wrap;
+            align-items: none;
+        }
     }
 
     .footer-logo {
@@ -36,28 +36,25 @@ footer {
         max-width: 380px;
         list-style: none;
 
-        @include for-desktop-footer{
+        @include for-desktop-footer {
             display: flex;
             flex-flow: row wrap;
-            
+
             width: 100%;
             max-width: 1024px;
         }
-        
     }
 
     li {
         padding-top: 5px;
 
-        @include for-desktop-footer{
-            width:fit-content;
+        @include for-desktop-footer {
+            width: fit-content;
             padding-right: 20px;
         }
-
     }
 
     i {
         width: 25px;
     }
-
 }

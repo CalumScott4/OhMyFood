@@ -8,9 +8,8 @@
         @include button-text
     }
 
-    &:hover{
+    &:hover {
         box-shadow: 0px 15px 18px -11px rgba(0, 0, 0, 0.5);
         background: linear-gradient(180deg, $secondary-color-light, $primary-color-light);
     }
-
 }

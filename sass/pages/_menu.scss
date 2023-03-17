@@ -1,4 +1,4 @@
-body {
+main {
     background-color: white;
 }
 
@@ -34,22 +34,23 @@ button {
     }
 
     @include for-desktop {
-        max-width: 1024px;        
-        img{
+        max-width: 1024px;
+
+        img {
             width: 100%;
             height: auto;
             position: relative;
             top: -20px;
         }
 
-        .tep-menu-img{
+        .tep-menu-img {
             width: 100%;
             height: auto;
             transform: scale(1);
             top: -40px;
         }
 
-        .leg-menu-img{
+        .leg-menu-img {
             width: 100%;
             height: auto;
             transform: scale(1);
@@ -69,6 +70,7 @@ button {
     border-top-right-radius: 30px;
     box-shadow: $menu-page-shadow;
     overflow: hidden;
+
     h1 {
         padding: 20px 30px 20px 15px;
         display: flex;
@@ -81,7 +83,7 @@ button {
         padding: 20px 0px 0px 20px;
         position: relative;
 
-        &::after{
+        &::after {
             content: '';
             height: 3px;
             width: 45px;
@@ -102,23 +104,23 @@ button {
         margin: 50px 0px 90px 0px;
     }
 
-    @include for-desktop{
+    @include for-desktop {
         max-width: 1024px;
 
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-start;
 
-        h1{
+        h1 {
             width: 100%;
         }
 
-        .dishes{
+        .dishes {
             width: 100%;
             flex-flow: row wrap;
             justify-content: space-evenly;
 
-            .dish{
+            .dish {
                 max-width: 30%;
             }
         }
@@ -131,52 +133,47 @@ button {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        // align-content: flex-start;
-
-
-        
-        // padding: 10px 0px 10px 10px;
         width: 95%;
         max-width: 400px;
         margin-top: 20px;
         background-color: white;
         border-radius: $card-radius;
         box-shadow: 0px 15px 15px -16px rgba(0, 0, 0, 0.1);
-
         overflow: hidden;
-        // white-space: nowrap;
-        // overflow: hidden;
-        // text-overflow: ellipsis;
-        
     }
 }
 
 
 .dish {
-    
-    .dish-left{
-        white-space: nowrap;
+    .dish-left {
         overflow: hidden;
         width: fit-content;
+
         h3 {
             padding-bottom: 5px;
-            
+
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
-        h4{
-        text-overflow: ellipsis;
-        }    
+        h4 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
         .dish-text {
-            padding: 10px;            
+            padding: 10px;
         }
     }
-    
-    .dish-right{
+
+    .dish-right {
         display: flex;
         width: 25%;
         flex-direction: row wrap;
         justify-content: flex-end;
+
         .price {
             width: 50px;
             display: flex;
@@ -184,31 +181,26 @@ button {
             justify-content: flex-end;
             padding-bottom: 10px;
         }
-    } 
+    }
 }
 
-// .dish-text{
-//     h4{
-        
-//     }
-// }
-.menu-content{
+.menu-content {
     h2 {
         opacity: 0;
         animation: appear 2s ease-in;
         animation-fill-mode: forwards;
         animation-delay: 2s;
-    
+
         @keyframes appear {
             0% {
                 opacity: 0;
                 transform: translateY(10px);
             }
-    
+
             100% {
                 opacity: 1;
                 transform: translateY(0px);
             }
-        }  
+        }
     }
 }

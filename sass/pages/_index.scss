@@ -30,9 +30,6 @@
     button {
         @include gradient-btn;
     }
-
-    
-
 }
 
 .how-it-works {
@@ -43,7 +40,7 @@
     padding: 30px 20px 30px 20px;
     width: 100%;
     background-color: white;
-   
+
     h1 {
         display: flex;
         justify-self: flex-start;
@@ -52,7 +49,7 @@
         width: 100%;
     }
 
-    .steps-container{
+    .steps-container {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
@@ -62,17 +59,20 @@
 
     // DESKTOP MEDIA QUERY
 
-    @include for-desktop{
+    @include for-desktop {
         max-width: 1024px;
-        h1{
+
+        h1 {
             padding-left: 30px;
             align-self: flex-start;
         }
-        .steps-container{
+
+        .steps-container {
             flex-flow: row nowrap;
             max-width: 1024px;
         }
-        .steps{
+
+        .steps {
             width: 30%;
         }
     }
@@ -98,15 +98,17 @@
     }
 }
 
-.menu-container{
+.menu-container {
     display: flex;
     flex-flow: column;
     align-items: center;
     width: 100%;
     background-color: $background-grey;
 
-    h1{
-        @include for-desktop{
+     // DESKTOP MEDIA QUERY
+
+    h1 {
+        @include for-desktop {
             padding-left: 40px;
             width: 99%;
         }
@@ -117,6 +119,7 @@
     width: 90%;
     max-width: 400px;
     margin-bottom: 50px;
+
     h1 {
         margin-top: 50px;
         @include text-title;
@@ -150,7 +153,7 @@
         top: -40px;
     }
 
-    @include for-desktop{
+    @include for-desktop {
         display: flex;
         flex-flow: row wrap;
         width: 100%;
@@ -184,10 +187,6 @@
 .menu-card {
     @include menu-card-vis;
 
-    @include for-desktop{
-        margin: 20px 30px 20px 30px;
-    }
-
     h2 {
         @include menu-card-text;
     }
@@ -197,7 +196,12 @@
         @include text-body
     }
 
-    &:hover{
+    &:hover {
         transform: scale(1.01);
+    }
+
+     // DESKTOP MEDIA QUERY
+     @include for-desktop {
+        margin: 20px 30px 20px 30px;
     }
 }

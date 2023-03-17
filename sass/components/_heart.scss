@@ -1,6 +1,7 @@
 .heart {
     position: relative;
     transform: scale(1.5);
+
     .fa-regular {
         color: $icon-color;
         position: absolute;
@@ -28,6 +29,4 @@
             opacity: 1;
         }
     }
-
-
 }

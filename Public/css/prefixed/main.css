@@ -214,7 +214,7 @@ footer ul {
   opacity: 1;
 }
 
-body {
+main {
   position: relative;
 }
 
@@ -570,11 +570,6 @@ header i {
   background-color: white;
   overflow: hidden;
 }
-@media screen and (min-width: 769px) {
-  .menu-card {
-    margin: 20px 30px 20px 30px;
-  }
-}
 .menu-card h2 {
   display: flex;
   flex-flow: row nowrap;
@@ -594,8 +589,13 @@ header i {
 .menu-card:hover {
   transform: scale(1.01);
 }
+@media screen and (min-width: 769px) {
+  .menu-card {
+    margin: 20px 30px 20px 30px;
+  }
+}
 
-body {
+main {
   background-color: white;
 }
 
@@ -739,15 +739,19 @@ button:hover {
 }
 
 .dish .dish-left {
-  white-space: nowrap;
   overflow: hidden;
   width: -moz-fit-content;
   width: fit-content;
 }
 .dish .dish-left h3 {
   padding-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .dish .dish-left h4 {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 .dish .dish-left .dish-text {
