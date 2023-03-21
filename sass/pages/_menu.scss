@@ -170,7 +170,7 @@ main {
     .dish-right {
         display: flex;
         width: 25%;
-        flex-direction: row wrap;
+        flex-direction: row;
         justify-content: flex-end;
 
         .price {

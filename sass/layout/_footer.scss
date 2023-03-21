@@ -16,12 +16,11 @@ footer {
         max-width: 380px;
         padding: 12px;
 
-
         @include for-desktop-footer {
             flex-flow: row;
             max-width: 769px;
             flex-flow: row wrap;
-            align-items: none;
+            align-items: flex-start;
         }
     }
 
