@@ -1,15 +1,21 @@
-@mixin gradient-btn {
-    @include gradient-btn-size;
-    background: linear-gradient(180deg, $secondary-color, $primary-color);
-    border: none;
-    box-shadow: 0px 15px 15px -13px rgba(0, 0, 0, 0.5);
+// @mixin gradient-btn {
+//     @include gradient-btn-size;
+//     @include button-text;
+//     background: linear-gradient(180deg, $secondary-color, $primary-color);
+//     border: none;
+//     box-shadow: 0px 15px 15px -13px rgba(0, 0, 0, 0.5);    
 
-    a {
-        @include button-text
-    }
+//     &:hover {
+//         box-shadow: 0px 15px 18px -11px rgba(0, 0, 0, 0.5);
+//         background: linear-gradient(180deg, $secondary-color-light, $primary-color-light);
+//     }
+// }
 
-    &:hover {
-        box-shadow: 0px 15px 18px -11px rgba(0, 0, 0, 0.5);
-        background: linear-gradient(180deg, $secondary-color-light, $primary-color-light);
-    }
+.explore{
+    @include gradient-button
+}
+
+.order{
+    min-width: 150px ;
+    @include gradient-button
 }

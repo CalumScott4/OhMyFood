@@ -2,10 +2,6 @@ main {
     background-color: white;
 }
 
-button {
-    @include gradient-btn
-}
-
 .menu-top {
     width: 100%;
     max-width: 425px;
@@ -100,7 +96,7 @@ button {
         flex-flow: column nowrap;
     }
 
-    button {
+    .order {
         margin: 50px 0px 90px 0px;
     }
 

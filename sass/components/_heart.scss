@@ -1,12 +1,13 @@
 .heart {
     position: relative;
-    transform: scale(1.5);
+    
 
     .fa-regular {
+        font-size: 35px;
         color: $icon-color;
         position: absolute;
         top: 5px;
-        left: -30px;
+        left: -50px;
         opacity: 1;
         transition: opacity 100ms ease-in-out;
 
@@ -16,12 +17,13 @@
     }
 
     .fa-solid {
+        font-size: 35px;
         color: transparent;
         background-clip: text;
         background-image: linear-gradient(180deg, $secondary-color, $primary-color);
         position: absolute;
         top: 5px;
-        left: -30px;
+        left: -50px;
         opacity: 0;
         transition: opacity 500ms ease-in-out;
 
