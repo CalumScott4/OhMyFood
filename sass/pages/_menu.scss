@@ -67,14 +67,17 @@ main {
     box-shadow: $menu-page-shadow;
     overflow: hidden;
 
-    h1 {
+    .menu-title{
         padding: 20px 30px 20px 15px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        text-align: left;
+        h1 {
+            text-align: left;
+        }
     }
 
+    
     h2 {
         padding: 20px 0px 0px 20px;
         position: relative;
@@ -107,7 +110,7 @@ main {
         flex-flow: row wrap;
         justify-content: flex-start;
 
-        h1 {
+        .menu-title {
             width: 100%;
         }
 
