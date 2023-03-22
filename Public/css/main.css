@@ -198,6 +198,11 @@ footer ul {
   border-radius: 25px;
   color: white;
   background: linear-gradient(180deg, #ff79da, #9356dc);
+  box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.1);
+}
+.explore:hover {
+  background: linear-gradient(180deg, #ff97e2, #9b65db);
+  box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .order {
@@ -212,6 +217,11 @@ footer ul {
   border-radius: 25px;
   color: white;
   background: linear-gradient(180deg, #ff79da, #9356dc);
+  box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.1);
+}
+.order:hover {
+  background: linear-gradient(180deg, #ff97e2, #9b65db);
+  box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .heart {
@@ -330,10 +340,9 @@ footer .footer-nav {
 }
 @media screen and (min-width: 937px) {
   footer .footer-nav {
-    flex-flow: row;
-    max-width: 769px;
     flex-flow: row wrap;
     align-items: flex-start;
+    max-width: 769px;
   }
 }
 footer .footer-logo {
