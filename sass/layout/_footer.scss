@@ -17,10 +17,9 @@ footer {
         padding: 12px;
 
         @include for-desktop-footer {
-            flex-flow: row;
-            max-width: 769px;
             flex-flow: row wrap;
             align-items: flex-start;
+            max-width: 769px;
         }
     }
 

@@ -1,8 +1,18 @@
-.explore{
-    @include gradient-button
+.explore {
+    @include gradient-button;
+
+    &:hover {
+        background: linear-gradient(180deg, $secondary-color-light, $primary-color-light);
+        box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
+    }
 }
 
-.order{
-    min-width: 150px ;
-    @include gradient-button
+.order {
+    min-width: 150px;
+    @include gradient-button;
+
+    &:hover {
+        background: linear-gradient(180deg, $secondary-color-light, $primary-color-light);
+        box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
+    }
 }
