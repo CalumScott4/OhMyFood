@@ -4,7 +4,6 @@ main {
 
 .menu-top {
     width: 100%;
-    max-width: 425px;
     height: 225px;
     display: flex;
     justify-content: center;
@@ -13,21 +12,19 @@ main {
     box-shadow: $menu-page-shadow;
 
     img {
-        height: 225px;
+        width: 100%;
         transform: scale(1.26);
     }
 
     .tep-menu-img {
         position: relative;
         top: 20px;
-        width: auto;
-        transform: scale(2.4);
-    }
+        transform: scale(1.5);
+}
 
     .leg-menu-img {
-        height: 225px;
-        transform: scale(1.3);
-    }
+        transform: scale(1);
+}
 
     @include for-desktop {
         max-width: 1024px;
@@ -133,7 +130,6 @@ main {
         flex-flow: row nowrap;
         justify-content: space-between;
         width: 95%;
-        max-width: 400px;
         margin-top: 20px;
         background-color: white;
         border-radius: $card-radius;
